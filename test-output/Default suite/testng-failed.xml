@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="freeFacebookTest">
+      <class name="com.screenshotwithExtentReport.freeFacebookTest">
         <methods>
-          <include name="endreport"/>
-          <include name="tearDown"/>
-          <include name="facebookTitleTest"/>
           <include name="setUp"/>
           <include name="setExtent"/>
+          <include name="facebookTitleTest"/>
+          <include name="tearDown"/>
+          <include name="endreport"/>
         </methods>
-      </class> <!-- freeFacebookTest -->
+      </class> <!-- com.screenshotwithExtentReport.freeFacebookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
